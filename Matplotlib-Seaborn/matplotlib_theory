@@ -17,3 +17,11 @@ USING FIGURE --> Figure creates a canvas where by coordinates we can show a plot
 
 
 
+IMAGES..........................
+import matplotlib.image as mpimage
+
+To read an image as an array of pixel 
+image_arr = mpimage.imread('pathofimage')
+
+to print the whole image ( show image )
+plt.imshow(image_arr)
