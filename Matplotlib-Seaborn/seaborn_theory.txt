@@ -1,0 +1,17 @@
+
+
+SEABORN
+
+VARIABLES.................................
+Quantative variables --> has numbers (NOT EVERYTIME) for example an employee has age gender salary , then age and salary are Quantative
+Qualatitative variables --> has a quality like gender.
+
+DATASETS..................................
+Seaborn has by default some datasets available at searching seabron load data sets on google
+
+TYPES OF PLOTS---------------------------------------------------------------
+We use " Distribution plots " to visualize quantative data or columns ...
+       " Categorical plots " to visualize qualitative data or columns....
+
+DISTRIBUTION PLOTS------------------------------------------------------------
+Histograms are best to showcase distribution plots...
