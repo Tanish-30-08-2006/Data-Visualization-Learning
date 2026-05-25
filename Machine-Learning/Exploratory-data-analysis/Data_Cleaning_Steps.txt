@@ -1,0 +1,25 @@
+
+Steps of Data Cleaning -> Cleaning raw data to make it processable
+
+1 . Handle Missing Values               -> Check which Columns have missing values 
+                                        -> Drop Missing rows/columns only if few else
+                                        -> Impute with mean or median for numerical data 
+                                        -> Impute with mode for Categorical Data
+
+
+2. Remove Duplicates                    -> Detect and drop Duplicate Rows 
+
+
+3. Fix Datatypes                        -> Convert wrong datatypes of some columns into real one 
+
+
+4. Handle Inconsistent Categories       -> Some categorical values as Female/female/FEMALE -> female(string)
+
+
+5. Detect and Handle Outliers           -> Use box Plots , IQR,Z-score
+                                        -> Handle by Removing ( If completely misleading )
+                                                     Capping  ( eg. up to 95th percentile)
+
+
+6. Fix Logic Errors                     -> If age is negative or salary is negative 
+                                        -> Can impute/replace it with Mean/Median/Mode
