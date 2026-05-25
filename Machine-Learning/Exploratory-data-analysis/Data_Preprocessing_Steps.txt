@@ -1,0 +1,16 @@
+
+DataProcessing -> Transforming valid data into usable format so it can be further used for analysis or 
+                  can be used in Machine Learning models
+
+1. Encoding Categorical Variables      -> Convert Text labels ('male','yes', etc.) into numbers
+                                       -> ML models generally fail to read text format data to some extent
+                                          so we encode it into numbers
+
+                                       -> Two Common Methods of Encoding Categorical Variables  :
+                                             -> Label Encoding - Good for ordered categories like high/low
+                                                                 [Ordinal Encoding] 
+                                             -> On-Hot-Encoding - Good for Unordered Categories like 4 regions
+                                                                  North/South/East/West
+                                                                  [ Nominal Encoding ]
+
+2.
