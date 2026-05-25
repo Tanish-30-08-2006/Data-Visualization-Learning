@@ -13,4 +13,32 @@ DataProcessing -> Transforming valid data into usable format so it can be furthe
                                                                   North/South/East/West
                                                                   [ Nominal Encoding ]
 
-2.
+2. Feature Tranformation                -> Log/Square Root etc.
+                                        -> Used to handle skewed data like left skewed or right skewed 
+
+3. Feature Scaling                      -> Normalization / Standardization
+                                        -> Bring Numerical Values to the Same Scale
+                                        -> for eg : Bring all columns to same scale for scatter plot
+                                        -> Especially Used for Distance-Based Algorithms
+
+                                        -> Normalization (Min-Max Scaling) : Between 0-1
+                                                                           : Used less in ML models
+                                                                           : Used in pixels (Image Processing)
+                                        -> Standardization(Z-Score Scaling) : Data scaled between -3 to +3
+                                                                            : To have mean 0 / Std dev = 1
+
+4. Feature Engineering                  -> Creating useful features(columns) or transform existing ones 
+                                        -> For ML models to learn better from these features..
+                                        -> Used as hit and trial to increase accuracy
+
+                                        -> Common Feature Engineering Techniques In ML :
+                                             -> Target-Based Flags  
+                                             -> Binning (Eg: 10-20 age group of 10)
+                                             -> Time based Features (If Time Exists in data)
+                                             -> Mathematical Combinations 
+
+
+5. Feature Selection                    -> Selecting most Useful Features and removing rest (Reducing Colum)
+                                        -> Why : To Reduce Noise and Overfitting 
+                                               : Improves Model Accuracy
+                                               : Speeds up Training 
