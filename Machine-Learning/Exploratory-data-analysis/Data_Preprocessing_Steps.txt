@@ -38,7 +38,15 @@ DataProcessing -> Transforming valid data into usable format so it can be furthe
                                              -> Mathematical Combinations 
 
 
-5. Feature Selection                    -> Selecting most Useful Features and removing rest (Reducing Colum)
+5. Feature Selection                    -> Selecting most Useful Features and removing rest (Reducing Columns)
                                         -> Why : To Reduce Noise and Overfitting 
                                                : Improves Model Accuracy
                                                : Speeds up Training 
+
+                                        -> Methods of Feature Selection : 
+                                                 -> Correlation Matrix : Remove highly Correlated Features
+                                                 -> Chi-Square Test (Categorical vs Categorical)
+                                                 -> ANOVA F-Test (Numerical vs Categorical Target)
+                                        -> Embedded Methods : 
+                                                 -> Lasso Regression : Shrinks Coefficients to 0 
+                                                 -> Tree Based Model : Random Forest , XGBoost etc.
